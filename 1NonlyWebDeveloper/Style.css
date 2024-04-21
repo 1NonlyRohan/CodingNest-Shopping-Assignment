@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body{
+    background-color: #fff !important;
+    font-family: math;
+    font-size: 16px;
+}
+
+.head h2 a {
+    color: black !important;
+    font-size: 30px;
+    position: absolute;
+    font-family: Math;
+}
+
+.navbar ul {
+    margin-left: 950px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    margin: 20px;
+    color: black !important;
+    font-size: 22px;
+}
+
+button {
+    position: absolute;
+    background-color: black !important;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 0 0 10px;
+    border: 0;
+}
+
+button a {
+    color: white !important;
+}
+
+.post-1 img {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    width: 1350px;
+    /* filter: brightness(60%); */
+}
+
+.post-1-content{
+    position: relative;
+    top: 50px;
+}
+
+.post-1-content h1 {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    color: white !important;
+    font-size: 90px;
+    z-index: 999;
+}
+
+.post-1-content p{
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    color: white !important;
+    font-size: 25px;
+    font-family: josefin sans;
+    z-index: 999;
+}
+
+.post-1-content button{
+    position: absolute;
+    top: 520px;
+    left: 650px;
+    z-index: 999;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.section-2 h1 {
+    font-size: 35px;
+    position: absolute;
+    top: 950px;
+    left: 80px;
+}
+
+.section-2-content-1 img {
+    left: 80px;
+    position: absolute;
+    top: 1000px;
+}
+
+.section-2-content-1 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1200px;
+    left: 80px;
+}
+
+.section-2-content-1 #p5 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 1240px;
+    left: 80px;
+}
+
+.section-2-content-1 #p6 {
+    position: absolute;
+    font-size: 25px;
+    top: 1280px;
+    left: 80px;
+}
+
+.section-2-content-2 img {
+    left: 500px;
+    position: absolute;
+    top: 1000px;
+}
+
+.section-2-content-2 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1200px;
+    left: 510px;
+}
+
+.section-2-content-2 #p7 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 1240px;
+    left: 510px;
+}
+
+.section-2-content-2 #p8 {
+    position: absolute;
+    font-size: 25px;
+    top: 1280px;
+    left: 510px;
+}
+
+.section-2-content-3 img {
+    left: 900px;
+    position: absolute;
+    top: 1005px;
+    width: 300px;
+}
+
+.section-2-content-3 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1200px;
+    left: 910px;
+}
+
+.section-2-content-3 #p9 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 1240px;
+    left: 910px;
+}
+
+.section-2-content-3 #p10 {
+    position: absolute;
+    font-size: 25px;
+    top: 1280px;
+    left: 910px;
+}
+
+.section-2-content-4 img {
+    left: 80px;
+    position: absolute;
+    top: 1350px;
+}
+
+.section-2-content-4 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1560px;
+    left: 80px;
+}
+
+.section-2-content-4 #p11 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 1600px;
+    left: 80px;
+}
+
+.section-2-content-4 #p12 {
+    position: absolute;
+    font-size: 25px;
+    top: 1640px;
+    left: 80px;
+}
+
+.section-2-content-5 img {
+    left: 500px;
+    position: absolute;
+    top: 1350px;
+}
+
+.section-2-content-5 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1560px;
+    left: 510px;
+}
+
+.section-2-content-5 #p13 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 1600px;
+    left: 510px;
+}
+
+.section-2-content-5 #p14 {
+    position: absolute;
+    font-size: 25px;
+    top: 1640px;
+    left: 510px;
+}
+
+.section-2-content-6 img {
+    left: 900px;
+    position: absolute;
+    top: 1355px;
+    width: 320px;
+}
+
+.section-2-content-6 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1560px;
+    left: 910px;
+}
+
+.section-2-content-6 #p15 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 1600px;
+    left: 910px;
+}
+
+.section-2-content-6 #p16 {
+    position: absolute;
+    font-size: 25px;
+    top: 1640px;
+    left: 910px;
+}
+
+.section-3 h1 {
+    font-size: 35px;
+    position: absolute;
+    top: 1750px;
+    left: 80px;
+}
+
+.section-3-content-1 img {
+    left: 80px;
+    position: absolute;
+    top: 1820px;
+    width: 700px;
+}
+
+.section-3-content-1 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 2440px;
+    left: 80px;
+}
+
+.section-3-content-1 #p17 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 2480px;
+    left: 80px;
+}
+
+.section-3-content-1 #p18 {
+    position: absolute;
+    font-size: 25px;
+    top: 2520px;
+    left: 80px;
+}
+
+.section-3-content-2 img {
+    left: 900px;
+    position: absolute;
+    top: 1830px;
+    width: 400px;
+}
+
+.section-3-content-2 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 2020px;
+    left: 910px;
+}
+
+.section-3-content-2 #p19 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 2060px;
+    left: 910px;
+}
+
+.section-3-content-2 #p20 {
+    position: absolute;
+    font-size: 25px;
+    top: 2100px;
+    left: 910px;
+}
+
+.section-3-content-3 img {
+    left: 900px;
+    position: absolute;
+    top: 2240px;
+    width: 400px;
+}
+
+.section-3-content-3 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 2440px;
+    left: 910px;
+}
+
+.section-3-content-3 #p21 {
+    position: absolute;
+    color: grey !important;
+    font-size: 25px;
+    top: 2480px;
+    left: 910px;
+}
+
+.section-3-content-3 #p22 {
+    position: absolute;
+    font-size: 25px;
+    top: 2520px;
+    left: 910px;
+}
+
+.foot a h1 {
+    position: absolute;
+    color: black !important;
+    font-size: 30px;
+    top: 2660px;
+    left: 90px;
+}
+
+.social-links {
+    position: absolute;
+    top: 2850px;
+    left: 80px;
+}
+
+.social-links .fa-xl {
+    font-size: 1.8em;
+    margin-left: 15px;
+    color: grey !important;
+}
+
+.social-links .fa-xl:hover {
+    transition: all 0.3s;
+    color: black !important;
+}
+
+.topic-page {
+    position: absolute;
+    left: 1100px;
+    top: 2650px;
+}
+
+.foot-Content h1 {
+    position: absolute;
+    top: 3000px;
+    left: 500px;
+    color: black !important;
+    font-family: math !important;
+    letter-spacing: 0.6px;
+    font-size: 22px;
+}
